@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'font';
+    src: url('font/MyriadBold.ttf');
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+  color: #fff; 
+}
+
+html {
+    background-color: #fff;
+}
+div.imgs{
+    width: 1285px;
+    height: 428px;
+    position: absolute;
+    left: 100px;
+    background-image: url(../img/Llantas2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position: 5px;
+    animation-name: desp;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes desp{
+    0%{background-image: url(../img/Llantas.jpg)}
+    100%{background-image: url(../img/Llantas2.jpg)}
+}
+
+nav {
+    /*background: linear-gradient(#f01616, #f04b4b); color de fondo*/
+    width: 1366px;
+    height: 220px;
+    margin: 15px 0 0 0;
+    position: relative;
+    font-family: 'font';
+}
+
+div.logo {
+    width: 330px;
+    height: 215px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+
+}
+
+div.nav {
+    width: 1030px;
+    height: 215px;
+    position: absolute;
+    left: 330px;
+    color: #fff;
+    font-family: 'font';
+
+}
+
+table.medidas {
+    padding: 0 0 0 15px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 38px;
+}
+
+tr.pestaña {
+    background-color: #395cae;
+}
+
+td.active a{
+    color: #ea8b87;
+    background-color: #fff;
+}
+td.active{
+    color: #ea8b87;
+    background-color: #fff;
+}
+
+td.RS {
+    font-size: 30px;
+}
+
+span.red {
+    line-height: 10px;
+    position: absolute
+}
+
+/*body*/
+
+body.Bpal {
+    width: 1366px;
+    height: 210px;
+    background: linear-gradient( #ff0000 0%,#ff4b4b 100%);
+}
+
+div.anun {
+    width: 1366px;
+    height: 422px;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    background-color: rgb(240, 22, 76);
+    position: relative;
+
+}
+div.anuntxt {
+    left: 635px;
+    width: 655px;
+    height: 422px;
+    text-align: center;
+    background-color: #395bae;
+    position: absolute;
+    transform: skewX(-10deg);
+    background: linear-gradient( #385cb0 0%,#385cb0 38%,#fff 38%,#fff 100%);
+
+}
+div.anuntxt p {
+    transform: skewX(10deg);
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "Arial", "MyriadProBold";
+
+}
+div.anuntxt p.a{
+    font-size: 70px;
+    color: #f9e730;
+    margin: 0;
+}
+div.anuntxt p.b{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+div.anuntxt p.c{
+    font-size: 50px;
+    color: #ff102a;
+    margin: 0;
+}
+div.anuntxt p.d{
+    font-size: 70px;
+    color: #395bae;
+    margin: 0;
+}
+/*Marcas*/
+footer {
+    top: 10px;
+    background-color: rgb(247, 232, 47);
+    height: 266px;
+    width: 1366px;
+    margin: 15px 0 15px 0;
+    position: relative;
+
+}
+footer.cat {
+    top: 520px;
+    background-color: rgb(247, 232, 47);
+    height: 266px;
+    width: 1366px;
+    margin: 15px 0 15px 0;
+    position: relative;
+
+}
+footer p{
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 0 0;
+    color: #706000;
+}
+div.marcas{
+    text-align: center;
+    vertical-align: middle;
+}
+div.marcas img{
+   padding: 0 20px 0 20px
+    
+}
+
+/*catalogo*/
+
+table.pest tr{
+    border: 1px solid #ff1d25;
+}
+article{
+    width: 980px;
+    height: 500px;
+    left: 190px;
+    top: 300px;
+    position: absolute;
+}
+article.ub{
+    width: 984px;
+    height: 500px;
+    left: 190px;
+    top: 260px;
+    position: absolute;
+}
+table.Tub{
+    background-color: rgb(255, 255, 255);
+    width: 480px;
+text-align: center;
+    font-family: "Arial";
+    
+}
+table.Tub tr th.TubT{
+    color: #fcee21;
+    height: 75px;
+    font-size: 40px;
+    
+}
+table.Tub td.TubCont{
+    border: 1px solid #ff1d25;
+    height: 75px;
+    font-size: 20px
+}
+table.Tub td.TubCont p{
+    margin: 11px;
+    
+}
+table.Tub td.TubTel{
+font-size: 20px;
+    background-color: #ff1d25;
+    color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+div.Gmap{
+    z-index: 5;
+}
+table.pst{
+    background-color: rgba(255, 255, 255, 0.51);
+    width: 225px;
+    height: 250px;
+    text-align: right;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+table.pst td{
+    border: 1px solid #ff1d25;
+    border-radius: 0 0 10px 10px
+    
+}
+th{
+    background-color: #385cb0;
+    color: #fff;
+    text-align: center;
+}
+table.pst td.active{
+    background-color: #ff1d25;
+    color: #fff;
+}
+
+table.prod{
+    background-color: #fff;
+    position: absolute;
+    left: 250px;
+    height: 320px;
+    width: 235px;
+    top: 0px;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #ff1d25;
+        text-align: right;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+table.prod td.prodT{
+    background-color: #385cb0;
+    color: #fff;
+}
+
+table.prod td.prodP{
+    font-size: 22px;
+    right: 5px;
+    position: relative;
+}
+table td.imgTire{
+    width: 230px;
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#ID1{
+        background-image: url(/img/img1.jpg);
+
+}
+#ID2{
+        background-image: url(/img/img2.jpg);
+
+}
+#ID3{
+        background-image: url(/img/img3.jpg);
+
+}
+iframe.Gmap {
+        top: 0;
+        left: 500px;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+       }
